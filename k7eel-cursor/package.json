@@ -1,0 +1,23 @@
+{
+  "name": "k7eel-cursor",
+  "displayName": "K7EEL Cursor",
+  "description": "A warm charcoal Cursor and VS Code theme with orange, hot-pink AI accents and readable PHP, TypeScript, JavaScript, HTML, CSS and Perl syntax.",
+  "version": "0.1.0",
+  "publisher": "k7eel",
+  "license": "MIT",
+  "engines": { "vscode": "^1.90.0" },
+  "categories": ["Themes"],
+  "keywords": ["theme", "cursor", "dark", "php", "typescript", "javascript", "claude", "warm"],
+  "contributes": {
+    "themes": [{
+      "label": "K7EEL Cursor",
+      "uiTheme": "vs-dark",
+      "path": "./themes/k7eel-cursor-color-theme.json"
+    }],
+    "iconThemes": [{
+      "id": "k7eel-icons",
+      "label": "K7EEL Icons",
+      "path": "./icons/k7eel-icon-theme.json"
+    }]
+  }
+}

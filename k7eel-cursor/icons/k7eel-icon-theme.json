@@ -1,0 +1,47 @@
+{
+  "$schema": "vscode://schemas/icon-theme",
+  "iconDefinitions": {
+    "_file": { "iconPath": "./file.svg" },
+    "_folder": { "iconPath": "./folder.svg" },
+    "_folder_open": { "iconPath": "./folder-open.svg" },
+    "_php": { "iconPath": "./php.svg" },
+    "_js": { "iconPath": "./js.svg" },
+    "_ts": { "iconPath": "./ts.svg" },
+    "_react": { "iconPath": "./react.svg" },
+    "_html": { "iconPath": "./html.svg" },
+    "_css": { "iconPath": "./css.svg" },
+    "_json": { "iconPath": "./json.svg" },
+    "_md": { "iconPath": "./md.svg" },
+    "_env": { "iconPath": "./env.svg" },
+    "_git": { "iconPath": "./git.svg" },
+    "_claude": { "iconPath": "./claude.svg" },
+    "_perl": { "iconPath": "./perl.svg" }
+  },
+  "file": "_file",
+  "folder": "_folder",
+  "folderExpanded": "_folder_open",
+  "fileExtensions": {
+    "php": "_php", "phtml": "_php", "inc": "_php",
+    "js": "_js", "mjs": "_js", "cjs": "_js",
+    "ts": "_ts", "mts": "_ts", "cts": "_ts",
+    "jsx": "_react", "tsx": "_react",
+    "html": "_html", "htm": "_html",
+    "css": "_css", "scss": "_css", "sass": "_css", "less": "_css",
+    "json": "_json", "jsonc": "_json",
+    "md": "_md", "markdown": "_md",
+    "pl": "_perl", "pm": "_perl", "t": "_perl"
+  },
+  "fileNames": {
+    ".env": "_env", ".env.local": "_env", ".env.example": "_env",
+    ".gitignore": "_git", ".gitattributes": "_git",
+    "CLAUDE.md": "_claude", "claude.md": "_claude",
+    "package.json": "_json", "tsconfig.json": "_ts", "composer.json": "_php"
+  },
+  "folderNames": { ".claude": "_claude", ".git": "_git" },
+  "folderNamesExpanded": { ".claude": "_claude", ".git": "_git" },
+  "languageIds": {
+    "php": "_php", "javascript": "_js", "typescript": "_ts", "javascriptreact": "_react", "typescriptreact": "_react", "html": "_html", "css": "_css", "scss": "_css", "json": "_json", "markdown": "_md", "perl": "_perl"
+  },
+  "hidesExplorerArrows": false,
+  "showLanguageModeIcons": true
+}
