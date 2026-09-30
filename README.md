@@ -1,5 +1,11 @@
 # K7EEL Cursor
 
+A warm charcoal dark theme designed for Cursor and VS Code.
+
+![K7EEL Cursor Preview](small.png)
+
+# K7EEL Cursor 🚀
+
 A warm charcoal dark theme designed for Cursor and VS Code, with a restrained orange coding accent, hot-pink AI accent, brighter lime success/string palette, and tuned syntax for PHP, TypeScript, JavaScript, HTML, CSS and Perl.
 
 ## Recommended settings
