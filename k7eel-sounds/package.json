@@ -1,0 +1,31 @@
+{
+  "name": "k7eel-sounds",
+  "displayName": "K7EEL Sounds",
+  "description": "Mechanical typing, terminal and Claude Code audio cues for Cursor and VS Code.",
+  "version": "0.1.0",
+  "publisher": "k7eel",
+  "license": "MIT",
+  "engines": { "vscode": "^1.93.0" },
+  "categories": ["Other"],
+  "keywords": ["cursor", "sound", "typing", "mechanical keyboard", "terminal", "claude"],
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished", "onTerminal", "onTerminalShellIntegration"],
+  "contributes": {
+    "commands": [
+      {"command":"k7eelSounds.toggle","title":"K7EEL Sounds: Toggle Sounds"},
+      {"command":"k7eelSounds.preview","title":"K7EEL Sounds: Preview Claude Completion"},
+      {"command":"k7eelSounds.installClaudeHooks","title":"K7EEL Sounds: Install Claude Code Hooks (macOS)"}
+    ],
+    "configuration": {
+      "title": "K7EEL Sounds",
+      "properties": {
+        "k7eelSounds.enabled": {"type":"boolean","default":true,"description":"Enable K7EEL Sounds."},
+        "k7eelSounds.volume": {"type":"number","default":0.22,"minimum":0,"maximum":1,"description":"Master sound volume."},
+        "k7eelSounds.typing.enabled": {"type":"boolean","default":true,"description":"Mechanical sounds while editing text."},
+        "k7eelSounds.typing.minimumIntervalMs": {"type":"number","default":32,"minimum":15,"maximum":250,"description":"Minimum interval between typing sounds."},
+        "k7eelSounds.save.enabled": {"type":"boolean","default":true,"description":"Play a subtle sound on save."},
+        "k7eelSounds.terminal.enabled": {"type":"boolean","default":true,"description":"Play command start/success/failure sounds when terminal shell integration is available."}
+      }
+    }
+  }
+}
